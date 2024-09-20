@@ -22,7 +22,9 @@
 <body>
     @include('layout.nav')
 
-    @yield('content')
+    <div style="margin-top: 154px">
+        @yield('content')
+    </div>
 </body>
 
 </html>

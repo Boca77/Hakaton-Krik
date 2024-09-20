@@ -4,7 +4,6 @@
 
 @section('content')
 
-    {{-- <p class="font_headings">Heading</p>
-    <p class="font_paragraphs">Text</p> --}}
+    <h1>test</h1>
 
 @endsection
