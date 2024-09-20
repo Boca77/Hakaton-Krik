@@ -50,13 +50,13 @@
                         </li>
 
                         <li class="nav-item p-2 align-self-center hover_border">
-                            <a href="{{ url('/uslugi')}}" class="text-black text-decoration-none ">Услуги</a>
+                            <a href="{{ url('/uslugi') }}" class="text-black text-decoration-none ">Услуги</a>
                         </li>
                         <li class="nav-item p-2 align-self-center hover_border">
                             <a href="" class="text-black text-decoration-none ">Проекти</a>
                         </li>
                         <li class="nav-item p-2 align-self-center hover_border">
-                            <a href="" class="text-black text-decoration-none ">Кнтакт</a>
+                            <a href="#kontakt" class="text-black text-decoration-none ">Кнтакт</a>
                         </li>
                         <li class="nav-item fw-normal align-self-center p-2">
                             <a href="">
