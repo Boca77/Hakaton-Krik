@@ -14,8 +14,14 @@ body {
     font-family: "Montserrat", sans-serif;
 }
 
+nav {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
 .nav_shadow {
-    box-shadow: 6px 5px 0px 1px rgba(0, 0, 0, 0.5);
+    box-shadow: 5px 5px 60px rgba(0, 0, 0, 0.5);
 }
 
 .orange {
@@ -49,6 +55,39 @@ body {
 
 .pushable:active .front {
     transform: translateY(-2px);
+}
+
+.hover_border:hover {
+    border: 2px solid black;
+    border-radius: 50px;
+}
+
+.drop_list {
+    list-style: none;
+    padding: 0;
+    width: 100%;
+    font-weight: normal;
+    li {
+        text-align: center;
+        padding: 5px 0px;
+        font-size: 12px;
+        a {
+            color: white;
+            text-decoration: none;
+        }
+    }
+}
+
+.dropdown_active {
+    background: #000;
+    color: white !important;
+    border-radius: 10px;
+}
+
+.dropdown_body {
+    transform: translateX(-8px);
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
 }
 
 .red {

@@ -31,17 +31,32 @@
                 </div>
                 <div class="col-5 d-flex align-items-center">
                     <ul class="h5 d-flex w-100 font_text fw-bold nav justify-content-between">
-                        <li class="nav-item p-2 align-self-center">
-                            <a href="" class="text-black text-decoration-none">За нас</a>
+                        <li class="nav-item p-2 align-self-center hover_border position-relative" id="dropdown">
+                            <a class="text-black text-decoration-none" id="navItem">
+                                За нас
+                                <span class="d-none" id="arrow">
+                                    <i class="fa-solid fa-chevron-down"></i>
+                                </span>
+                            </a>
+                            <div class="position-absolute p-2 w-100 d-none dropdown_active dropdown_body"
+                                id="dropdown-content">
+                                <ul class="drop_list">
+                                    <li><a href="">За Крик</a></li>
+                                    <li><a href="">Нашиот Тим</a></li>
+                                    <li><a href="">Волонтери</a></li>
+                                    <li><a href="">Архива</a></li>
+                                </ul>
+                            </div>
                         </li>
-                        <li class="nav-item p-2 align-self-center">
-                            <a href="" class="text-black text-decoration-none">Услуги</a>
+
+                        <li class="nav-item p-2 align-self-center hover_border">
+                            <a href="" class="text-black text-decoration-none ">Услуги</a>
                         </li>
-                        <li class="nav-item p-2 align-self-center">
-                            <a href="" class="text-black text-decoration-none">Проекти</a>
+                        <li class="nav-item p-2 align-self-center hover_border">
+                            <a href="" class="text-black text-decoration-none ">Проекти</a>
                         </li>
-                        <li class="nav-item p-2 align-self-center">
-                            <a href="" class="text-black text-decoration-none">Кнтакт</a>
+                        <li class="nav-item p-2 align-self-center hover_border">
+                            <a href="" class="text-black text-decoration-none ">Кнтакт</a>
                         </li>
                         <li class="nav-item fw-normal align-self-center p-2">
                             <a href="">
