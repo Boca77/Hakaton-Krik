@@ -31,15 +31,26 @@
                 </div>
                 <div class="col-5 d-flex align-items-center">
                     <ul class="h5 d-flex w-100 font_text fw-bold nav justify-content-between">
-                        <li class="nav-item p-2 align-self-center">За нас</li>
-                        <li class="nav-item p-2 align-self-center">Услуги</li>
-                        <li class="nav-item p-2 align-self-center">Проекти</li>
-                        <li class="nav-item p-2 align-self-center">Кнтакт</li>
-                        <li class="nav-item fw-normal align-self-center p-2"> <button class="pushable">
-                                <span class="front">
-                                    Донирај
-                                </span>
-                            </button>
+                        <li class="nav-item p-2 align-self-center">
+                            <a href="" class="text-black text-decoration-none">За нас</a>
+                        </li>
+                        <li class="nav-item p-2 align-self-center">
+                            <a href="" class="text-black text-decoration-none">Услуги</a>
+                        </li>
+                        <li class="nav-item p-2 align-self-center">
+                            <a href="" class="text-black text-decoration-none">Проекти</a>
+                        </li>
+                        <li class="nav-item p-2 align-self-center">
+                            <a href="" class="text-black text-decoration-none">Кнтакт</a>
+                        </li>
+                        <li class="nav-item fw-normal align-self-center p-2">
+                            <a href="">
+                                <button class="pushable">
+                                    <span class="front">
+                                        Донирај
+                                    </span>
+                                </button>
+                            </a>
                         </li>
                     </ul>
                 </div>
