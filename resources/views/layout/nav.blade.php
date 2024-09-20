@@ -41,7 +41,7 @@
                             <div class="position-absolute p-2 w-100 d-none dropdown_active dropdown_body"
                                 id="dropdown-content">
                                 <ul class="drop_list">
-                                    <li><a href="">За Крик</a></li>
+                                    <li><a href="{{ route('za-krik') }}">За Крик</a></li>
                                     <li><a href="">Нашиот Тим</a></li>
                                     <li><a href="">Волонтери</a></li>
                                     <li><a href="">Архива</a></li>
