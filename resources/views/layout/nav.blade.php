@@ -26,8 +26,8 @@
         <div class="container py-1">
             <div class="row">
                 <div class="col-7">
-                    <a href=""> <img style="width: 80px" src="{{ asset('images/logos/Крик-лого.png') }}"
-                            alt="Krik logo"></a>
+                    <a href="">
+                        <img style="width: 80px" src="{{ asset('images/logos/Крик-лого.png') }}" alt="Krik logo"></a>
                 </div>
                 <div class="col-5 d-flex align-items-center">
                     <ul class="h5 d-flex w-100 font_text fw-bold nav justify-content-between">
