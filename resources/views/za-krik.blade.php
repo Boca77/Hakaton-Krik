@@ -81,7 +81,7 @@
         <h2 class="accordion-header">
             <button class="btn w-100 text-start toggle-btn d-flex justify-content-between align-items-center collapsed" type="button" onclick="toggleAccordion(this)">
                 <span>02 Lorem question?</span>
-                <span class="plus-circle d-flex justify-content-center align-items-center">+</span>
+                <span class="plus-circle d-flex justify-content-center align-items-center"><span class="centered">+</span></span>
             </button>
         </h2>
         <div id="collapseOne" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">

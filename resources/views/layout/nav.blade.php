@@ -50,7 +50,7 @@
                         </li>
 
                         <li class="nav-item p-2 align-self-center hover_border">
-                            <a href="" class="text-black text-decoration-none ">Услуги</a>
+                            <a href="{{ url('/uslugi')}}" class="text-black text-decoration-none ">Услуги</a>
                         </li>
                         <li class="nav-item p-2 align-self-center hover_border">
                             <a href="" class="text-black text-decoration-none ">Проекти</a>
