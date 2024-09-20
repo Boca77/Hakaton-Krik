@@ -52,6 +52,7 @@
             </div>
         </div>
     </section>
+
     <section class="stats text-center p-0">
         <hr>
         <div class="container ">
@@ -71,6 +72,91 @@
             </div>
         </div>
         <hr>
+    </section>
+
+    <section>
+        <div class="container p-2 mt-5">
+            <div class="row mt-5">
+                <div class="col-8">
+                    <video width="100%" height="350" class="rounded-5" controls>
+                        <source src="movie.mp4" type="video/mp4">
+                        <source src="movie.ogg" type="video/ogg">
+                        Your browser does not support the video tag.
+                    </video>
+                </div>
+                <div class="col-4 bg-black rounded-5 p-5">
+                    <h3 class="text-white font_headings">Стани <br> Волонтер</h3>
+                    <p class="text-white font_text my-5">Сакаш да работиш Со Млади Лица? Оваа
+                        Можност Е Токму За Тебе.</p>
+                    <a href="" class="join_us text-decoration-none rounded-pill font_text">
+                        Придружи Ни Се
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="news">
+        <div class="container mt-5">
+            <div class="row mt-5">
+                <div class="post m-3 rounded-5"
+                    style="background-image: url('{{ asset('images/homepage/homepage_uslugi_cardimg.jpg') }}');">
+                    <div class="content">
+                        <div class="container post_body">
+                            <div class="row">
+                                <div class="col-6 bg-warning rounded-pill post_title">
+                                    <p class="font_text p-1 text-center mb-0">АКТИВНОСТ ECO-ACTION</p>
+                                </div>
+                                <div class="col-6">
+                                    <p class="mb-0 font_text text-white"><i
+                                            class="fa-regular fa-calendar-days text-white"></i>
+                                        25.08.2023
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <p class="mb-0 mt-4 text-white font_text">
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum, veritatis
+                                </p>
+                            </div>
+                            <div class="row">
+                                <p class="mb-0 mt-4 text-white font_text">
+                                    Види Повеќе <i class="fa-solid fa-arrow-right"></i>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="post m-3 rounded-5"
+                    style="background-image: url('{{ asset('images/homepage/homepage_uslugi_cardimg.jpg') }}');">
+                    <div class="content">
+                        <div class="container post_body">
+                            <div class="row">
+                                <div class="col-6 bg-warning rounded-pill post_title">
+                                    <p class="font_text p-1 text-center mb-0">АКТИВНОСТ ECO-ACTION</p>
+                                </div>
+                                <div class="col-6">
+                                    <p class="mb-0 font_text text-white"><i
+                                            class="fa-regular fa-calendar-days text-white"></i>
+                                        25.08.2023
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <p class="mb-0 mt-4 text-white font_text">
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum, veritatis
+                                </p>
+                            </div>
+                            <div class="row">
+                                <p class="mb-0 mt-4 text-white font_text">
+                                    Види Повеќе <i class="fa-solid fa-arrow-right"></i>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </section>
 
 

@@ -134,3 +134,33 @@ nav {
         border: solid black 2px;
     }
 }
+
+.join_us {
+    color: white;
+    border: white 2px solid;
+    font-size: 25px;
+    padding: 5px 12px;
+    font-weight: 500;
+}
+
+.join_us:hover {
+    color: black;
+    background: white;
+}
+
+.news {
+    .post {
+        width: 450px;
+        height: 450px;
+        background-position: center;
+        background-size: cover;
+        padding: 15px;
+    }
+    .post_title {
+        font-size: 12px;
+        font-weight: 600;
+    }
+    .post_body {
+        margin-top: 260px;
+    }
+}
