@@ -1,0 +1,48 @@
+@import "bootstrap";
+@import url("https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+
+.font_headings {
+    font-family: "Mulish", sans-serif;
+}
+
+.font_text {
+    font-family: "Montserrat", sans-serif;
+}
+
+.nav_shadow {
+    box-shadow: 6px 5px 0px 1px rgba(0, 0, 0, 0.5);
+}
+
+.orange {
+    background: #fbb13c;
+}
+
+.pushable {
+    background: black;
+    border-radius: 20px;
+    border: none;
+    padding: 0;
+    cursor: pointer;
+    outline-offset: 4px;
+}
+
+.front {
+    display: block;
+    padding: 8px;
+    border-radius: 20px;
+    font-size: 1.25rem;
+    background: rgb(0, 0, 0);
+    color: white;
+    transform: translateY(-6px);
+    transition: background 0.3s ease, transform 0.2s ease;
+}
+
+.pushable:hover .front {
+    background: #b8afda;
+    transform: translateY(-6px);
+}
+
+.pushable:active .front {
+    transform: translateY(-2px);
+}
