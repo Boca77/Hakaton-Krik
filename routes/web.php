@@ -8,4 +8,6 @@ Route::get('/', function () {
 
 Route::get('/za-krik', function () {
     return view('za-krik');
-});
+})->name('za-krik');
+
+

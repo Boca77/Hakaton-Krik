@@ -41,8 +41,8 @@
                             <div class="position-absolute p-2 w-100 d-none dropdown_active dropdown_body"
                                 id="dropdown-content">
                                 <ul class="drop_list">
-                                    <li><a href="">За Крик</a></li>
-                                    <li><a href="">Нашиот Тим</a></li>
+                                <li><a href="{{ route('za-krik') }}">За Крик</a></li>
+                                <li><a href="">Нашиот Тим</a></li>
                                     <li><a href="">Волонтери</a></li>
                                     <li><a href="">Архива</a></li>
                                 </ul>
@@ -56,7 +56,7 @@
                             <a href="" class="text-black text-decoration-none ">Проекти</a>
                         </li>
                         <li class="nav-item p-2 align-self-center hover_border">
-                            <a href="" class="text-black text-decoration-none ">Кнтакт</a>
+                            <a href="" class="text-black text-decoration-none ">Контакт</a>
                         </li>
                         <li class="nav-item fw-normal align-self-center p-2">
                             <a href="">
