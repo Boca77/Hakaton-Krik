@@ -436,3 +436,21 @@ footer {
         }
     }
 }
+
+.rounded-bottom-only {
+    border-bottom-left-radius: 0.5rem;
+    border-bottom-right-radius: 0.5rem;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+}
+
+/* For stronger rounding */
+.rounded-bottom-only {
+    border-bottom-left-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+}
+
+.project-details img{
+    max-height: 50vh;
+    overflow: hidden;
+}
