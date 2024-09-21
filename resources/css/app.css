@@ -359,90 +359,86 @@ footer {
 
 .overflow-auto a {
     text-decoration: none;
+}
+.blue-button {
+    background-color: #3d80c8;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 16px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+    transition: background-color 0.3s;
+    display: inline-block;
+    /* float: right;  */
+    margin-left: -50%;
+    margin-top: 2em;
+    margin-right: 1em;
+}
 
-    .overflow-auto a {
-        text-decoration: none;
-    }
-    .blue-button {
-        background-color: #3d80c8;
-        color: white;
-        padding: 10px 20px;
-        border-radius: 5px;
-        text-decoration: none;
-        font-size: 16px;
-        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
-        transition: background-color 0.3s;
-        display: inline-block;
-        /* float: right;  */
-        margin-left: -50%;
-        margin-top: 2em;
-        margin-right: 1em;
-    }
+.blue-button:hover {
+    background-color: #0056b3;
+}
 
-    .blue-button:hover {
-        background-color: #0056b3;
-    }
+.stats {
+    margin-top: 550px;
 
-    .stats {
-        margin-top: 550px;
+    .number {
+        font-size: 80px;
+        color: #fb5e3c;
+    }
+    .text {
+        font-size: 20px;
+        color: #fb5e3c;
+    }
+    hr {
+        border: solid black 2px;
+    }
+}
+.join_us {
+    color: white;
+    border: white 2px solid;
+    font-size: 25px;
+    padding: 5px 12px;
+    font-weight: 500;
+}
 
-        .number {
-            font-size: 80px;
-            color: #fb5e3c;
-        }
-        .text {
-            font-size: 20px;
-            color: #fb5e3c;
-        }
-        hr {
-            border: solid black 2px;
-        }
-    }
-    .join_us {
-        color: white;
-        border: white 2px solid;
-        font-size: 25px;
-        padding: 5px 12px;
-        font-weight: 500;
-    }
+.join_us:hover {
+    color: black;
+    background: white;
+}
 
-    .join_us:hover {
-        color: black;
-        background: white;
-    }
+.blue-button {
+    background-color: #3d80c8;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 16px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+    transition: background-color 0.3s;
+    display: inline-block;
+    /* float: right;  */
+    margin-left: -50%;
+    margin-top: 2em;
+    margin-right: 1em;
+}
 
-    .blue-button {
-        background-color: #3d80c8;
-        color: white;
-        padding: 10px 20px;
-        border-radius: 5px;
-        text-decoration: none;
-        font-size: 16px;
-        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
-        transition: background-color 0.3s;
-        display: inline-block;
-        /* float: right;  */
-        margin-left: -50%;
-        margin-top: 2em;
-        margin-right: 1em;
-    }
+.blue-button:hover {
+    background-color: #0056b3;
+}
 
-    .blue-button:hover {
-        background-color: #0056b3;
-    }
+.card {
+    height: 200px;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.5);
+}
+.card i {
+    /* background-color: #000; */
+    color: white;
+}
 
-    .card {
-        height: 200px;
-        box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.5);
-    }
-    .card i {
-        /* background-color: #000; */
-        color: white;
-    }
-
-    .card a:hover {
-        background-color: #d9bb13;
-    }
+.card a:hover {
+    background-color: #d9bb13;
 }
 
 /* Volunteers */
