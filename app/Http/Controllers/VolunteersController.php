@@ -12,7 +12,9 @@ class VolunteersController extends Controller
      */
     public function index()
     {
-        //
+        $longTermVolunteers = Volunteers::query()->where('is-long-term', '=', 1)->get();
+        $shortTermVolunteers = Volunteers::query()->where('is-long-term', '=', 0)->get();
+        return view('volunteers', compact('shortTermVolunteers', 'longTermVolunteers'));
     }
 
     /**

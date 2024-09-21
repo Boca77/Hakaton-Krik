@@ -1,6 +1,7 @@
 <?php
 
 use App\Http\Controllers\NewVolunteersController;
+use App\Http\Controllers\VolunteersController;
 use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
@@ -24,3 +25,6 @@ Route::get('/new/volunteer', [NewVolunteersController::class, 'index'])
 
 Route::post('/new/volunteer/store', [NewVolunteersController::class, 'store'])
     ->name('volunteer.store');
+
+Route::get('/volunteers', [VolunteersController::class, 'index'])
+    ->name('volunteers');
