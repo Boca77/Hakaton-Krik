@@ -15,6 +15,9 @@ Route::get('/uslugi', function () {
     return view('uslugi');
 });
 
+Route::get('/arhiva', function () {
+    return view('arhiva');
+});
 Route::get('/new/volunteer', [NewVolunteersController::class, 'index'])
     ->name('volunteer');
 

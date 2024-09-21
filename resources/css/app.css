@@ -403,3 +403,13 @@ footer {
         padding: 50px;
     }
 }
+
+.card{
+    height: 200px;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.5);
+
+}
+ .card i{
+    /* background-color: #000; */
+    color: white;
+ }
