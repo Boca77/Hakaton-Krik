@@ -148,6 +148,7 @@ nav {
     background: white;
 }
 
+/* News */
 .news {
     .post {
         width: 450px;
@@ -155,6 +156,7 @@ nav {
         background-position: center;
         background-size: cover;
         padding: 15px;
+        flex-shrink: 0;
     }
     .post_title {
         font-size: 12px;
@@ -163,4 +165,67 @@ nav {
     .post_body {
         margin-top: 260px;
     }
+}
+
+.row.overflow-auto {
+    overflow-x: auto;
+    white-space: nowrap;
+}
+
+.dark-line {
+    height: 5px;
+    background-color: black;
+    width: 100%;
+}
+
+.red-tab {
+    height: 20px;
+    background-color: red;
+    width: 50%;
+    margin: 0 auto;
+    border-radius: 10px;
+}
+::-webkit-scrollbar {
+    width: 8px;
+}
+.overflow-auto::-webkit-scrollbar {
+    width: 8px;
+}
+
+.overflow-auto::-webkit-scrollbar-track {
+    border-radius: 8px;
+    background: #eeeeee;
+}
+
+.overflow-auto::-webkit-scrollbar-thumb {
+    border-radius: 8px;
+    background: #f00606;
+}
+
+.overflow-auto::-webkit-scrollbar-thumb:hover {
+    background: #b30000;
+}
+
+.overflow-auto a{
+    text-decoration: none;
+
+}
+.blue-button {
+    background-color: #3d80c8;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 16px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+    transition: background-color 0.3s;
+    display: inline-block;
+    float: right;
+    margin-left: -50%;
+    margin-top: 2em;
+    margin-right: 1em;
+}
+
+.blue-button:hover {
+    background-color: #0056b3;
 }

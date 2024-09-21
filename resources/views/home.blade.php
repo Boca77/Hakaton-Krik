@@ -52,8 +52,8 @@
             </div>
         </div>
     </section>
-
-    <section class="stats text-center p-0">
+<br><br><br><br><br><br>br
+    <section class="stats text-center p-0 pt-5">
         <hr>
         <div class="container ">
             <div class="row">
@@ -95,69 +95,109 @@
             </div>
         </div>
     </section>
+<br>
+<section class="news">
+    <div class="container mt-5">
+        <h2 class="text-center font_headings">Нашите Новости</h2>
+        <div class="row overflow-auto">
+            <div class="d-flex flex-row col-12">
+            <div class="post m-3 rounded-5"
+                    style="background-image: url('{{ asset('images/homepage/homepage_uslugi_cardimg.jpg') }}');">
+                    <div class="content">
+                        <div class="container post_body">
+                        <div class="row">
+                                <div class="col-6 bg-warning rounded-pill post_title">
+                                    <p class="font_text p-1 text-center mb-0">АКТИВНОСТ ECO-ACTION</p>
+                                </div>
+                                <div class="col-6">
+                                    <p class="mb-0 font_text text-white"><i class="fa-regular fa-calendar-days text-white"></i> 25.08.2023</p>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <p class="mb-0 mt-4 text-white font_text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum, veritatis</p>
+                            </div>
+                            <div class="row">
+    <a href="#" class="mb-0 mt-4 text-white font_text">
+        Види Повеќе <i class="fa-solid fa-arrow-right"></i>
+    </a>
+</div>
 
-    <section class="news">
-        <div class="container mt-5">
-            <div class="row mt-5">
-                <div class="post m-3 rounded-5"
+                        </div>
+                    </div>
+                </div>  <div class="post m-3 rounded-5"
                     style="background-image: url('{{ asset('images/homepage/homepage_uslugi_cardimg.jpg') }}');">
                     <div class="content">
                         <div class="container post_body">
-                            <div class="row">
+                        <div class="row">
                                 <div class="col-6 bg-warning rounded-pill post_title">
                                     <p class="font_text p-1 text-center mb-0">АКТИВНОСТ ECO-ACTION</p>
                                 </div>
                                 <div class="col-6">
-                                    <p class="mb-0 font_text text-white"><i
-                                            class="fa-regular fa-calendar-days text-white"></i>
-                                        25.08.2023
-                                    </p>
+                                    <p class="mb-0 font_text text-white"><i class="fa-regular fa-calendar-days text-white"></i> 25.08.2023</p>
                                 </div>
                             </div>
                             <div class="row">
-                                <p class="mb-0 mt-4 text-white font_text">
-                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum, veritatis
-                                </p>
+                                <p class="mb-0 mt-4 text-white font_text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum, veritatis</p>
                             </div>
                             <div class="row">
-                                <p class="mb-0 mt-4 text-white font_text">
-                                    Види Повеќе <i class="fa-solid fa-arrow-right"></i>
-                                </p>
-                            </div>
+    <a href="#" class="mb-0 mt-4 text-white font_text">
+        Види Повеќе <i class="fa-solid fa-arrow-right"></i>
+    </a>
+</div>
+
                         </div>
                     </div>
-                </div>
-                <div class="post m-3 rounded-5"
+                </div>  <div class="post m-3 rounded-5"
                     style="background-image: url('{{ asset('images/homepage/homepage_uslugi_cardimg.jpg') }}');">
                     <div class="content">
                         <div class="container post_body">
-                            <div class="row">
+                        <div class="row">
                                 <div class="col-6 bg-warning rounded-pill post_title">
                                     <p class="font_text p-1 text-center mb-0">АКТИВНОСТ ECO-ACTION</p>
                                 </div>
                                 <div class="col-6">
-                                    <p class="mb-0 font_text text-white"><i
-                                            class="fa-regular fa-calendar-days text-white"></i>
-                                        25.08.2023
-                                    </p>
+                                    <p class="mb-0 font_text text-white"><i class="fa-regular fa-calendar-days text-white"></i> 25.08.2023</p>
                                 </div>
                             </div>
                             <div class="row">
-                                <p class="mb-0 mt-4 text-white font_text">
-                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum, veritatis
-                                </p>
+                                <p class="mb-0 mt-4 text-white font_text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum, veritatis</p>
                             </div>
                             <div class="row">
-                                <p class="mb-0 mt-4 text-white font_text">
-                                    Види Повеќе <i class="fa-solid fa-arrow-right"></i>
-                                </p>
+    <a href="#" class="mb-0 mt-4 text-white font_text">
+        Види Повеќе <i class="fa-solid fa-arrow-right"></i>
+    </a>
+</div>
+</div>  <div class="post m-3 rounded-5"
+                    style="background-image: url('{{ asset('images/homepage/homepage_uslugi_cardimg.jpg') }}');">
+                    <div class="content">
+                        <div class="container post_body">
+                        <div class="row">
+                                <div class="col-6 bg-warning rounded-pill post_title">
+                                    <p class="font_text p-1 text-center mb-0">АКТИВНОСТ ECO-ACTION</p>
+                                </div>
+                                <div class="col-6">
+                                    <p class="mb-0 font_text text-white"><i class="fa-regular fa-calendar-days text-white"></i> 25.08.2023</p>
+                                </div>
                             </div>
-                        </div>
-                    </div>
-                </div>
+                            <div class="row">
+                                <p class="mb-0 mt-4 text-white font_text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum, veritatis</p>
+                            </div>
+                            <div class="row">
+    <a href="#" class="mb-0 mt-4 text-white font_text">
+        Види Повеќе <i class="fa-solid fa-arrow-right"></i>
+    </a>
+</div>
+<!-- Posle 4rtiot post losh vertikalen overflow se pravi(so 3 raboti ok) -->
+
             </div>
         </div>
-    </section>
-
+        <br><br>
+    </div>
+</section>
+<br><br>
+<div class="container mt-3 text-right bottom-0 end-0 p-3">
+    <a href="" class="blue-button">Види за Цел Месец</a>
+</div>
+<br><br><br>
 
 @endsection
