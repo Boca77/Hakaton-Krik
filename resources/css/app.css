@@ -169,15 +169,15 @@ nav {
     cursor: pointer;
     position: relative;
     text-align: center;
-    width: 100%; /* Make tabs full width */
+    width: 100%;
     border-bottom: 2px solid black;
     transition: border-bottom 0.3s ease, color 0.3s ease;
 }
 
 /* Default Inactive Tab */
 .tab:not(.active) {
-    border-bottom: 2px solid black; /* Thinner black line for inactive tabs */
-    opacity: 0.6; /* Optional: Slightly faded for inactive tabs */
+    border-bottom: 2px solid black;
+    opacity: 0.6;
 }
 
 /* Active Tab Styling */
@@ -189,7 +189,7 @@ nav {
 .tab::after {
     content: "";
     position: absolute;
-    bottom: -2px; /* Adjust the position to appear right below the tab */
+    bottom: -2px;
     left: 50%;
     transform: translateX(-50%);
     width: 50%;
@@ -201,20 +201,19 @@ nav {
     transition: opacity 0.3s ease, width 0.3s ease;
 }
 
-/* Active Tab underline visibility */
 .tab.active::after {
     opacity: 1;
-    width: 100%; /* Extend the underline fully when active */
+    width: 100%;
 }
 
 /* Tab Content Styling */
 .tab-content {
-    display: none; /* Initially hidden */
-    margin-top: 20px; /* Space between tabs and content */
+    display: none;
+    margin-top: 20px;
 }
 
 .tab-content.active {
-    display: block; /* Show when active */
+    display: block;
 }
 
 /* FOOTER */
@@ -236,6 +235,146 @@ footer {
     input::placeholder {
         color: white;
     }
+}
+.header {
+    height: 100vh;
+    h1 {
+        width: 600px;
+        margin-top: 120px;
+        margin-bottom: 150px;
+        font-size: 53px;
+        font-weight: 800;
+    }
+    p {
+        width: 500px;
+        font-size: 20px;
+        line-height: 40px;
+    }
+    .button {
+        background: #b8afda;
+        width: 450px;
+        font-size: 25px;
+    }
+    .info_board {
+        bottom: -700px;
+        a {
+            font-size: 25px;
+        }
+    }
+}
+
+::-webkit-scrollbar {
+    width: 8px;
+}
+.overflow-auto::-webkit-scrollbar {
+    width: 8px;
+}
+
+.overflow-auto::-webkit-scrollbar-track {
+    border-radius: 8px;
+    background: #eeeeee;
+}
+
+.overflow-auto::-webkit-scrollbar-thumb {
+    border-radius: 8px;
+    background: #f00606;
+}
+
+.overflow-auto::-webkit-scrollbar-thumb:hover {
+    background: #b30000;
+}
+
+.overflow-auto a {
+    text-decoration: none;
+}
+.blue-button {
+    background-color: #3d80c8;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 16px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+    transition: background-color 0.3s;
+    display: inline-block;
+    /* float: right;  */
+    margin-left: -50%;
+    margin-top: 2em;
+    margin-right: 1em;
+}
+
+.blue-button:hover {
+    background-color: #0056b3;
+}
+
+.stats {
+    margin-top: 550px;
+
+    .number {
+        font-size: 80px;
+        color: #fb5e3c;
+    }
+    .text {
+        font-size: 20px;
+        color: #fb5e3c;
+    }
+    hr {
+        border: solid black 2px;
+    }
+}
+.join_us {
+    color: white;
+    border: white 2px solid;
+    font-size: 25px;
+    padding: 5px 12px;
+    font-weight: 500;
+}
+
+.join_us:hover {
+    color: black;
+    background: white;
+}
+
+.news {
+    width: 200vh;
+
+    .post {
+        overflow-x: auto; /* Allow horizontal scrolling */
+        overflow-y: hidden; /* Prevent vertical scrolling */
+        white-space: nowrap;
+        width: 450px;
+        height: 450px;
+        background-position: center;
+        background-size: cover;
+        padding: 15px;
+        flex-shrink: 0;
+    }
+    .post_title {
+        font-size: 12px;
+        font-weight: 600;
+    }
+    .post_body {
+        margin-top: 260px;
+    }
+}
+.blue-button {
+    background-color: #3d80c8;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 16px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+    transition: background-color 0.3s;
+    display: inline-block;
+    /* float: right;  */
+    margin-left: -50%;
+    margin-top: 2em;
+    margin-right: 1em;
+}
+
+.blue-button:hover {
+    background-color: #0056b3;
 }
 
 /* New Volunteers Form */
