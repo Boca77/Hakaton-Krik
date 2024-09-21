@@ -239,7 +239,7 @@
     </section>
     <br><br>
     <div class="container mt-3 text-end p-3" style="position: relative;">
-        <a href="" class="button blue-button" style="position: absolute; right: 0; bottom: 0;">Види за Цел
+        <a href="" class="button blue-button rounded-5" style="position: absolute; right: 0; bottom: 0;">Види за Цел
             Месец</a>
     </div>
     <br><br><br>
