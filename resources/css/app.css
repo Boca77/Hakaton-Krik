@@ -237,3 +237,28 @@ footer {
         color: white;
     }
 }
+
+/* New Volunteers Form */
+.volunteers-form {
+    .range-input {
+        width: 100%;
+        accent-color: #fb5e3c;
+        background-color: white;
+    }
+
+    .sliderticks {
+        width: 100%;
+    }
+
+    .submit {
+        margin-top: 50px;
+        background: #fb5e3c;
+        font-size: 25px;
+        padding: 10px 15px;
+    }
+
+    .form {
+        box-shadow: 4px -5px 54px 17px rgba(0, 0, 0, 0.1);
+        padding: 50px;
+    }
+}

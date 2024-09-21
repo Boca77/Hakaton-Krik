@@ -8,4 +8,6 @@ use Illuminate\Database\Eloquent\Model;
 class NewVolunteers extends Model
 {
     use HasFactory;
+
+    protected $guarded = null;
 }
