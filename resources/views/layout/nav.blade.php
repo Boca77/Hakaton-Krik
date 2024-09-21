@@ -44,7 +44,7 @@
                                     <li><a href="{{ route('za-krik') }}">За Крик</a></li>
                                     <li><a href="">Нашиот Тим</a></li>
                                     <li><a href="">Волонтери</a></li>
-                                    <li><a href="">Архива</a></li>
+                                    <li><a href="{{ route('arhiva') }}">Архива</a></li>
                                 </ul>
                             </div>
                         </li>

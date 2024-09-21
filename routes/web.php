@@ -13,11 +13,12 @@ Route::get('/za-krik', function () {
 
 Route::get('/uslugi', function () {
     return view('uslugi');
-});
+})->name('uslugi');
+
 
 Route::get('/arhiva', function () {
     return view('arhiva');
-});
+})->name('arhiva');
 Route::get('/new/volunteer', [NewVolunteersController::class, 'index'])
     ->name('volunteer');
 
