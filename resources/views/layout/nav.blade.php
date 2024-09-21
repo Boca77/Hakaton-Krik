@@ -26,7 +26,7 @@
         <div class="container py-1">
             <div class="row">
                 <div class="col-7">
-                    <a href="">
+                    <a href="/">
                         <img style="width: 80px" src="{{ asset('images/logos/Крик-лого.png') }}" alt="Krik logo"></a>
                 </div>
                 <div class="col-5 d-flex align-items-center">
