@@ -17,6 +17,8 @@ return new class extends Migration
             $table->integer('age');
             $table->string('country');
             $table->boolean('is-long-term');
+            $table->string('image');
+
             $table->timestamps();
         });
     }
