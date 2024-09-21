@@ -313,7 +313,7 @@ footer {
         font-weight: 600;
     }
     .post_body {
-        margin-top: 260px;
+        margin-top: 290px;
     }
 }
 
@@ -409,29 +409,6 @@ footer {
     .join_us:hover {
         color: black;
         background: white;
-    }
-
-    .news {
-        width: 200vh;
-
-        .post {
-            overflow-x: auto; /* Allow horizontal scrolling */
-            overflow-y: hidden; /* Prevent vertical scrolling */
-            white-space: nowrap;
-            width: 450px;
-            height: 450px;
-            background-position: center;
-            background-size: cover;
-            padding: 15px;
-            flex-shrink: 0;
-        }
-        .post_title {
-            font-size: 12px;
-            font-weight: 600;
-        }
-        .post_body {
-            margin-top: 260px;
-        }
     }
 
     .blue-button {

@@ -12,7 +12,9 @@ class EventsController extends Controller
      */
     public function index()
     {
-        //
+        $posts = Events::all();
+
+        return view('home', compact('posts'));
     }
 
     /**

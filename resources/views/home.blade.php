@@ -52,8 +52,8 @@
             </div>
         </div>
     </section>
-<br><br><br><br><br><br>
     <br><br><br><br><br><br>
+    <br>
     <section class="stats text-center p-0 pt-5">
         <hr>
         <div class="container ">
@@ -89,7 +89,6 @@
                     <h3 class="text-white font_headings">Стани <br> Волонтер</h3>
                     <p class="text-white font_text my-5">Сакаш да работиш Со Млади Лица? Оваа
                         Можност Е Токму За Тебе.</p>
-                    <a href="" class="join_us text-decoration-none rounded-pill font_text">
                     <a href="{{ route('volunteer') }}" class="join_us text-decoration-none rounded-pill font_text">
                         Придружи Ни Се
                     </a>
@@ -97,255 +96,52 @@
             </div>
         </div>
     </section>
-<br>
-<section class="news">
-    <div class="container mt-5">
-        <h2 class="text-center font_headings">Нашите Новости</h2>
-        <div class="row overflow-auto">
-            <div class="d-flex flex-row col-12">
-            <div class="post m-3 rounded-5"
-                    style="background-image: url('{{ asset('images/homepage/homepage_uslugi_cardimg.jpg') }}');">
-                    <div class="content">
-                        <div class="container post_body">
-                        <div class="row">
-                                <div class="col-6 bg-warning rounded-pill post_title">
-                                    <p class="font_text p-1 text-center mb-0">АКТИВНОСТ ECO-ACTION</p>
-                                </div>
-                                <div class="col-6">
-                                    <p class="mb-0 font_text text-white"><i class="fa-regular fa-calendar-days text-white"></i> 25.08.2023</p>
-                                </div>
-                            </div>
-                            <div class="row">
-                                <p class="mb-0 mt-4 text-white font_text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum, veritatis</p>
-                            </div>
-                            <div class="row">
-    <a href="#" class="mb-0 mt-4 text-white font_text">
-        Види Повеќе <i class="fa-solid fa-arrow-right"></i>
-    </a>
-</div>
-
-                        </div>
-                    </div>
-                </div>  <div class="post m-3 rounded-5"
-                    style="background-image: url('{{ asset('images/homepage/homepage_uslugi_cardimg.jpg') }}');">
-                    <div class="content">
-                        <div class="container post_body">
-                        <div class="row">
-                                <div class="col-6 bg-warning rounded-pill post_title">
-                                    <p class="font_text p-1 text-center mb-0">АКТИВНОСТ ECO-ACTION</p>
-                                </div>
-                                <div class="col-6">
-                                    <p class="mb-0 font_text text-white"><i class="fa-regular fa-calendar-days text-white"></i> 25.08.2023</p>
-                                </div>
-                            </div>
-                            <div class="row">
-                                <p class="mb-0 mt-4 text-white font_text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum, veritatis</p>
-                            </div>
-                            <div class="row">
-    <a href="#" class="mb-0 mt-4 text-white font_text">
-        Види Повеќе <i class="fa-solid fa-arrow-right"></i>
-    </a>
-</div>
-
-                        </div>
-                    </div>
-                </div>  <div class="post m-3 rounded-5"
-                    style="background-image: url('{{ asset('images/homepage/homepage_uslugi_cardimg.jpg') }}');">
-                    <div class="content">
-                        <div class="container post_body">
-                        <div class="row">
-                                <div class="col-6 bg-warning rounded-pill post_title">
-                                    <p class="font_text p-1 text-center mb-0">АКТИВНОСТ ECO-ACTION</p>
-                                </div>
-                                <div class="col-6">
-                                    <p class="mb-0 font_text text-white"><i class="fa-regular fa-calendar-days text-white"></i> 25.08.2023</p>
-                                </div>
-                            </div>
-                            <div class="row">
-                                <p class="mb-0 mt-4 text-white font_text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum, veritatis</p>
-                            </div>
-                            <div class="row">
-    <a href="#" class="mb-0 mt-4 text-white font_text">
-        Види Повеќе <i class="fa-solid fa-arrow-right"></i>
-    </a>
-</div>
-</div>  <div class="post m-3 rounded-5"
-                    style="background-image: url('{{ asset('images/homepage/homepage_uslugi_cardimg.jpg') }}');">
-                    <div class="content">
-                        <div class="container post_body">
-                        <div class="row">
-                                <div class="col-6 bg-warning rounded-pill post_title">
-                                    <p class="font_text p-1 text-center mb-0">АКТИВНОСТ ECO-ACTION</p>
-                                </div>
-                                <div class="col-6">
-                                    <p class="mb-0 font_text text-white"><i class="fa-regular fa-calendar-days text-white"></i> 25.08.2023</p>
-                                </div>
-                            </div>
-                            <div class="row">
-                                <p class="mb-0 mt-4 text-white font_text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum, veritatis</p>
-                            </div>
-                            <div class="row">
-    <a href="#" class="mb-0 mt-4 text-white font_text">
-        Види Повеќе <i class="fa-solid fa-arrow-right"></i>
-    </a>
-</div>
-<!-- Posle 4rtiot post losh vertikalen overflow se pravi(so 3 raboti ok) -->
-
-            </div>
-        </div>
-        <br><br>
-    </div>
-</section>
-<br><br>
-<div class="container mt-3 text-right bottom-0 end-0 p-3">
-    <a href="" class="blue-button">Види за Цел Месец</a>
-</div>
-<br><br><br>
+    <br><br><br>
     <br>
     <section class="news" style="width: 100%;">
         <div class="container mt-5">
-            <h2 class="text-center font_headings">Нашите Новости</h2>
+            <h2 class="fw-bold font_headings">Нашите Новости</h2>
             <div class="row overflow-auto" style="overflow-y: hidden; overflow-x: auto; white-space: nowrap;">
                 <div class="d-flex flex-row flex-nowrap col-12">
                     <!-- Post 1 -->
-                    <div class="post m-3 rounded-5"
-                        style="background-image: url('{{ asset('images/homepage/homepage_uslugi_cardimg.jpg') }}'); width: 450px;">
-                        <div class="content">
-                            <div class="container post_body">
-                                <div class="row">
-                                    <div class="col-6 bg-warning rounded-pill post_title">
-                                        <p class="font_text p-1 text-center mb-0">АКТИВНОСТ ECO-ACTION</p>
+                    @foreach ($posts as $post)
+                        <div class="post m-3 p-0 rounded-5"
+                            style="background-image: url('{{ asset($post->image) }}'); white-space: wrap;">
+                            <div class="content">
+                                <div class="container post_body bg-black rounded-bottom-5"
+                                    style="--bs-bg-opacity: .5; max-width: 100%">
+                                    <div class="row">
+                                        <div class="col bg-warning rounded-pill mt-2 ms-2 post_title">
+                                            <p class="font_text p-1 text-center mb-0">{{ $post->title }}</p>
+                                        </div>
+                                        <div class="col-6">
+                                            <p class="mb-0 font_text text-white mt-2">
+                                                <i class="fa-regular fa-calendar-days text-white"></i>
+                                                {{ $post->date_from }}
+                                            </p>
+                                        </div>
                                     </div>
-                                    <div class="col-6">
-                                        <p class="mb-0 font_text text-white">
-                                            <i class="fa-regular fa-calendar-days text-white"></i> 25.08.2023
-                                        </p>
+                                    <div class="row">
+                                        <p class="mb-0 mt-4 text-white font_text">{{ $post->description }}</p>
                                     </div>
-                                </div>
-                                <div class="row">
-                                    <p class="mb-0 mt-4 text-white font_text">Lorem ipsum dolor sit amet consectetur
-                                        adipisicing elit. Laborum, veritatis</p>
-                                </div>
-                                <div class="row">
-                                    <a href="#" class="mb-0 mt-4 text-white font_text">
-                                        Види Повеќе <i class="fa-solid fa-arrow-right"></i>
-                                    </a>
+                                    <div class="row">
+                                        <a href="#" class="mb-2 mt-4 text-white font_text">
+                                            Види Повеќе <i class="fa-solid fa-arrow-right"></i>
+                                        </a>
+                                    </div>
                                 </div>
                             </div>
                         </div>
-                    </div>
-
-                    <div class="post m-3 rounded-5"
-                        style="background-image: url('{{ asset('images/homepage/homepage_uslugi_cardimg.jpg') }}'); width: 450px;">
-                        <div class="content">
-                            <div class="container post_body">
-                                <div class="row">
-                                    <div class="col-6 bg-warning rounded-pill post_title">
-                                        <p class="font_text p-1 text-center mb-0">АКТИВНОСТ ECO-ACTION</p>
-                                    </div>
-                                    <div class="col-6">
-                                        <p class="mb-0 font_text text-white">
-                                            <i class="fa-regular fa-calendar-days text-white"></i> 25.08.2023
-                                        </p>
-                                    </div>
-                                </div>
-                                <div class="row">
-                                    <p class="mb-0 mt-4 text-white font_text">Lorem ipsum dolor sit amet consectetur
-                                        adipisicing elit. Laborum, veritatis</p>
-                                </div>
-                                <div class="row">
-                                    <a href="#" class="mb-0 mt-4 text-white font_text">
-                                        Види Повеќе <i class="fa-solid fa-arrow-right"></i>
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="post m-3 rounded-5"
-                        style="background-image: url('{{ asset('images/homepage/homepage_uslugi_cardimg.jpg') }}'); width: 450px;">
-                        <div class="content">
-                            <div class="container post_body">
-                                <div class="row">
-                                    <div class="col-6 bg-warning rounded-pill post_title">
-                                        <p class="font_text p-1 text-center mb-0">АКТИВНОСТ ECO-ACTION</p>
-                                    </div>
-                                    <div class="col-6">
-                                        <p class="mb-0 font_text text-white">
-                                            <i class="fa-regular fa-calendar-days text-white"></i> 25.08.2023
-                                        </p>
-                                    </div>
-                                </div>
-                                <div class="row">
-                                    <p class="mb-0 mt-4 text-white font_text">Lorem ipsum dolor sit amet consectetur
-                                        adipisicing elit. Laborum, veritatis</p>
-                                </div>
-                                <div class="row">
-                                    <a href="#" class="mb-0 mt-4 text-white font_text">
-                                        Види Повеќе <i class="fa-solid fa-arrow-right"></i>
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="post m-3 rounded-5"
-                        style="background-image: url('{{ asset('images/homepage/homepage_uslugi_cardimg.jpg') }}'); width: 450px;">
-                        <div class="content">
-                            <div class="container post_body">
-                                <div class="row">
-                                    <div class="col-6 bg-warning rounded-pill post_title">
-                                        <p class="font_text p-1 text-center mb-0">АКТИВНОСТ ECO-ACTION</p>
-                                    </div>
-                                    <div class="col-6">
-                                        <p class="mb-0 font_text text-white">
-                                            <i class="fa-regular fa-calendar-days text-white"></i> 25.08.2023
-                                        </p>
-                                    </div>
-                                </div>
-                                <div class="row">
-                                    <p class="mb-0 mt-4 text-white font_text">Lorem ipsum dolor sit amet consectetur
-                                        adipisicing elit. Laborum, veritatis</p>
-                                </div>
-                                <div class="row">
-                                    <a href="#" class="mb-0 mt-4 text-white font_text">
-                                        Види Повеќе <i class="fa-solid fa-arrow-right"></i>
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="post m-3 rounded-5"
-                        style="background-image: url('{{ asset('images/homepage/homepage_uslugi_cardimg.jpg') }}')">
-                        <div class="content">
-                            <div class="container post_body">
-                                <div class="row">
-                                    <div class="col-6 bg-warning rounded-pill post_title">
-                                        <p class="font_text p-1 text-center mb-0">АКТИВНОСТ ECO-ACTION</p>
-                                    </div>
-                                    <div class="col-6">
-                                        <p class="mb-0 font_text text-white">
-                                            <i class="fa-regular fa-calendar-days text-white"></i> 25.08.2023
-                                        </p>
-                                    </div>
-                                </div>
-                                <div class="row">
-                                    <p class="mb-0 mt-4 text-white font_text">Lorem ipsum dolor sit amet consectetur
-                                        adipisicing elit. Laborum, veritatis</p>
-                                </div>
-                                <div class="row">
-                                    <a href="#" class="mb-0 mt-4 text-white font_text">
-                                        Види Повеќе <i class="fa-solid fa-arrow-right"></i>
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+                    @endforeach
                 </div>
             </div>
         </div>
     </section>
     <br><br>
     <div class="container mt-3 text-end p-3" style="position: relative;">
-        <a href="" class="button blue-button rounded-5" style="position: absolute; right: 0; bottom: 0;">Види за Цел
+        <a href="" class="text-center btn font_headings rounded-pill p-3 fw-bold button purple"
+            style="position: absolute; right: 0; bottom: 0;">Види за
+            Цел
             Месец</a>
     </div>
     <br><br><br>
@@ -374,5 +170,16 @@
             </div>
         </div>
     </div>
+
+    <section class="partners">
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <h1 class="mb-5">Партнери</h1>
+                </div>
+            </div>
+        </div>
+        <img src="{{ asset('images/homepage/image.png') }}" alt="" style="max-width: 100%">
+    </section>
 
 @endsection
