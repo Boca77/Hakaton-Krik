@@ -18,11 +18,7 @@ nav {
     position: fixed;
     top: 0;
     width: 100%;
-<<<<<<< HEAD
-    z-index: 10;
-=======
     z-index: 1000; /* Ensure navbar stays on top */
->>>>>>> 997ddef30ab7821230ed4f1e5be978f04c24cc6f
 }
 .nav_shadow {
     box-shadow: 5px 5px 60px rgba(0, 0, 0, 0.5);
@@ -361,158 +357,157 @@ footer {
     background: #b30000;
 }
 
-.overflow-auto a{
-    text-decoration: none;
-
 .overflow-auto a {
     text-decoration: none;
-}
-.blue-button {
-    background-color: #3d80c8;
-    color: white;
-    padding: 10px 20px;
-    border-radius: 5px;
-    text-decoration: none;
-    font-size: 16px;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
-    transition: background-color 0.3s;
-    display: inline-block;
-    /* float: right;  */
-    margin-left: -50%;
-    margin-top: 2em;
-    margin-right: 1em;
-}
 
-.blue-button:hover {
-    background-color: #0056b3;
-}
-
-.stats {
-    margin-top: 550px;
-
-    .number {
-        font-size: 80px;
-        color: #fb5e3c;
+    .overflow-auto a {
+        text-decoration: none;
     }
-    .text {
-        font-size: 20px;
-        color: #fb5e3c;
-    }
-    hr {
-        border: solid black 2px;
-    }
-}
-.join_us {
-    color: white;
-    border: white 2px solid;
-    font-size: 25px;
-    padding: 5px 12px;
-    font-weight: 500;
-}
-
-.join_us:hover {
-    color: black;
-    background: white;
-}
-
-.news {
-    width: 200vh;
-
-    .post {
-        overflow-x: auto; /* Allow horizontal scrolling */
-        overflow-y: hidden; /* Prevent vertical scrolling */
-        white-space: nowrap;
-        width: 450px;
-        height: 450px;
-        background-position: center;
-        background-size: cover;
-        padding: 15px;
-        flex-shrink: 0;
-    }
-    .post_title {
-        font-size: 12px;
-        font-weight: 600;
-    }
-    .post_body {
-        margin-top: 260px;
-    }
-}
-
-.blue-button {
-    background-color: #3d80c8;
-    color: white;
-    padding: 10px 20px;
-    border-radius: 5px;
-    text-decoration: none;
-    font-size: 16px;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
-    transition: background-color 0.3s;
-    display: inline-block;
-    /* float: right;  */
-    margin-left: -50%;
-    margin-top: 2em;
-    margin-right: 1em;
-}
-
-.blue-button:hover {
-    background-color: #0056b3;
-}
-
-/* New Volunteers Form */
-.volunteers-form {
-    .range-input {
-        width: 100%;
-        accent-color: #fb5e3c;
-        background-color: white;
+    .blue-button {
+        background-color: #3d80c8;
+        color: white;
+        padding: 10px 20px;
+        border-radius: 5px;
+        text-decoration: none;
+        font-size: 16px;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+        transition: background-color 0.3s;
+        display: inline-block;
+        /* float: right;  */
+        margin-left: -50%;
+        margin-top: 2em;
+        margin-right: 1em;
     }
 
-    .sliderticks {
-        width: 100%;
+    .blue-button:hover {
+        background-color: #0056b3;
     }
 
-    .submit {
-        margin-top: 50px;
-        background: #fb5e3c;
-        font-size: 25px;
-        padding: 10px 15px;
-    }
+    .stats {
+        margin-top: 550px;
 
-    .form {
-        box-shadow: 4px -5px 54px 17px rgba(0, 0, 0, 0.1);
-        padding: 50px;
-    }
-}
-
-.card{
-    height: 200px;
-    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.5);
-
-}
- .card i{
-    /* background-color: #000; */
-    color: white;
- }
-
- .card a:hover{
-    background-color: #d9bb13;
- }
-/* Volunteers */
-
-.volunteers {
-    h1 {
-        padding-top: 150px;
-        padding-bottom: 50px;
-        font-weight: 900;
-        font-size: 50px;
-    }
-    .vol {
-        box-shadow: 11px 18px 25px 17px rgba(0, 0, 0, 0.1);
-    }
-    .image {
-        img {
-            width: 100%;
-            height: 300px;
+        .number {
+            font-size: 80px;
+            color: #fb5e3c;
+        }
+        .text {
+            font-size: 20px;
+            color: #fb5e3c;
+        }
+        hr {
+            border: solid black 2px;
         }
     }
-}
+    .join_us {
+        color: white;
+        border: white 2px solid;
+        font-size: 25px;
+        padding: 5px 12px;
+        font-weight: 500;
+    }
+
+    .join_us:hover {
+        color: black;
+        background: white;
+    }
+
+    .news {
+        width: 200vh;
+
+        .post {
+            overflow-x: auto; /* Allow horizontal scrolling */
+            overflow-y: hidden; /* Prevent vertical scrolling */
+            white-space: nowrap;
+            width: 450px;
+            height: 450px;
+            background-position: center;
+            background-size: cover;
+            padding: 15px;
+            flex-shrink: 0;
+        }
+        .post_title {
+            font-size: 12px;
+            font-weight: 600;
+        }
+        .post_body {
+            margin-top: 260px;
+        }
+    }
+
+    .blue-button {
+        background-color: #3d80c8;
+        color: white;
+        padding: 10px 20px;
+        border-radius: 5px;
+        text-decoration: none;
+        font-size: 16px;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+        transition: background-color 0.3s;
+        display: inline-block;
+        /* float: right;  */
+        margin-left: -50%;
+        margin-top: 2em;
+        margin-right: 1em;
+    }
+
+    .blue-button:hover {
+        background-color: #0056b3;
+    }
+
+    /* New Volunteers Form */
+    .volunteers-form {
+        .range-input {
+            width: 100%;
+            accent-color: #fb5e3c;
+            background-color: white;
+        }
+
+        .sliderticks {
+            width: 100%;
+        }
+
+        .submit {
+            margin-top: 50px;
+            background: #fb5e3c;
+            font-size: 25px;
+            padding: 10px 15px;
+        }
+
+        .form {
+            box-shadow: 4px -5px 54px 17px rgba(0, 0, 0, 0.1);
+            padding: 50px;
+        }
+    }
+
+    .card {
+        height: 200px;
+        box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.5);
+    }
+    .card i {
+        /* background-color: #000; */
+        color: white;
+    }
+
+    .card a:hover {
+        background-color: #d9bb13;
+    }
+    /* Volunteers */
+
+    .volunteers {
+        h1 {
+            padding-top: 150px;
+            padding-bottom: 50px;
+            font-weight: 900;
+            font-size: 50px;
+        }
+        .vol {
+            box-shadow: 11px 18px 25px 17px rgba(0, 0, 0, 0.1);
+        }
+        .image {
+            img {
+                width: 100%;
+                height: 300px;
+            }
+        }
+    }
 }
