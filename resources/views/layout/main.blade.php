@@ -25,6 +25,8 @@
     <div style="margin-top: 154px">
         @yield('content')
     </div>
+
+    @include('layout.footer')
 </body>
 
 </html>

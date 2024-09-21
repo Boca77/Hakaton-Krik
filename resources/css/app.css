@@ -18,15 +18,19 @@ nav {
     position: fixed;
     top: 0;
     width: 100%;
+<<<<<<< HEAD
     z-index: 10;
+=======
+    z-index: 1000; /* Ensure navbar stays on top */
+>>>>>>> 997ddef30ab7821230ed4f1e5be978f04c24cc6f
 }
-
 .nav_shadow {
     box-shadow: 5px 5px 60px rgba(0, 0, 0, 0.5);
 }
 
 .orange {
     background: #fbb13c;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Added secound nav shadow here */
 }
 
 .pushable {
@@ -92,6 +96,156 @@ nav {
 }
 
 /* HEADER */
+.red {
+    color: #f00;
+}
+
+.accordion {
+    margin-top: 20px;
+}
+
+.accordion-item {
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Add shadow here */
+}
+
+.accordion-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem;
+    background-color: white;
+    border-bottom: 1px solid transparent;
+    cursor: pointer;
+    transition: background-color 0.7s ease;
+}
+.accordion-header button {
+    background: none;
+    border: none;
+    padding: 0;
+    outline: none;
+}
+.accordion-body {
+    padding: 1rem;
+    border: none;
+    box-shadow: none;
+}
+
+.plus-circle {
+    width: 50px; /* Adjust size as needed */
+    height: 50px; /* Adjust size as needed */
+    border-radius: 50%;
+    border: 1px solid black;
+    background-color: transparent;
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    transition: background-color 0.7s ease;
+    font-size: 2rem; /* Make font size larger */
+    line-height: 1; /* Ensure line height does not affect vertical centering */
+    border-bottom-width: 23px transparent;
+}
+.plus-circle.minus {
+    background-color: black;
+    color: white;
+}
+
+.accordion-header:hover {
+    background-color: #f3e5f5;
+}
+
+.accordion-collapse {
+    display: none;
+}
+
+.accordion-collapse.show {
+    display: block;
+    background-color: #f3e5f5;
+    transition: max-height 0.5s ease, opacity 0.5s ease;
+}
+
+/* Tab Container */
+.tab-container {
+    display: flex;
+    justify-content: space-around; /* Ensure tabs take full width and are evenly spaced */
+    border-bottom: 2px solid black; /* Overall border below the tabs */
+}
+
+/* Tab Styling */
+.tab {
+    padding: 10px 20px;
+    font-size: 18px;
+    cursor: pointer;
+    position: relative;
+    text-align: center;
+    width: 100%;
+    border-bottom: 2px solid black;
+    transition: border-bottom 0.3s ease, color 0.3s ease;
+}
+
+/* Default Inactive Tab */
+.tab:not(.active) {
+    border-bottom: 2px solid black;
+    opacity: 0.6;
+}
+
+/* Active Tab Styling */
+.tab.active {
+    color: red;
+}
+
+/* Red underline for active tab (centered) */
+.tab::after {
+    content: "";
+    position: absolute;
+    bottom: -2px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 50%;
+    height: 7px;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+    background-color: red;
+    opacity: 0;
+    transition: opacity 0.3s ease, width 0.3s ease;
+}
+
+.tab.active::after {
+    opacity: 1;
+    width: 100%;
+}
+
+/* Tab Content Styling */
+.tab-content {
+    display: none;
+    margin-top: 20px;
+}
+
+.tab-content.active {
+    display: block;
+}
+
+/* FOOTER */
+
+footer {
+    margin-top: 150px;
+    padding: 100px;
+    h2 {
+        font-size: 55px;
+    }
+    .top_footer_text {
+        font-size: 25px;
+    }
+    .send_email {
+        width: 400px;
+        padding: 15px;
+        font-size: 23px;
+    }
+    input::placeholder {
+        color: white;
+    }
+}
 
 .header {
     height: 100vh;
@@ -119,6 +273,7 @@ nav {
         }
     }
 }
+<<<<<<< HEAD
 .stats {
     margin-top: 550px;
 
@@ -185,6 +340,9 @@ nav {
     margin: 0 auto;
     border-radius: 10px;
 }
+=======
+
+>>>>>>> 997ddef30ab7821230ed4f1e5be978f04c24cc6f
 ::-webkit-scrollbar {
     width: 8px;
 }
@@ -206,9 +364,14 @@ nav {
     background: #b30000;
 }
 
+<<<<<<< HEAD
 .overflow-auto a{
     text-decoration: none;
 
+=======
+.overflow-auto a {
+    text-decoration: none;
+>>>>>>> 997ddef30ab7821230ed4f1e5be978f04c24cc6f
 }
 .blue-button {
     background-color: #3d80c8;
@@ -220,7 +383,11 @@ nav {
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
     transition: background-color 0.3s;
     display: inline-block;
+<<<<<<< HEAD
     float: right;
+=======
+    /* float: right;  */
+>>>>>>> 997ddef30ab7821230ed4f1e5be978f04c24cc6f
     margin-left: -50%;
     margin-top: 2em;
     margin-right: 1em;
@@ -229,3 +396,135 @@ nav {
 .blue-button:hover {
     background-color: #0056b3;
 }
+<<<<<<< HEAD
+=======
+
+.stats {
+    margin-top: 550px;
+
+    .number {
+        font-size: 80px;
+        color: #fb5e3c;
+    }
+    .text {
+        font-size: 20px;
+        color: #fb5e3c;
+    }
+    hr {
+        border: solid black 2px;
+    }
+}
+.join_us {
+    color: white;
+    border: white 2px solid;
+    font-size: 25px;
+    padding: 5px 12px;
+    font-weight: 500;
+}
+
+.join_us:hover {
+    color: black;
+    background: white;
+}
+
+.news {
+    width: 200vh;
+
+    .post {
+        overflow-x: auto; /* Allow horizontal scrolling */
+        overflow-y: hidden; /* Prevent vertical scrolling */
+        white-space: nowrap;
+        width: 450px;
+        height: 450px;
+        background-position: center;
+        background-size: cover;
+        padding: 15px;
+        flex-shrink: 0;
+    }
+    .post_title {
+        font-size: 12px;
+        font-weight: 600;
+    }
+    .post_body {
+        margin-top: 260px;
+    }
+}
+
+.blue-button {
+    background-color: #3d80c8;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 16px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+    transition: background-color 0.3s;
+    display: inline-block;
+    /* float: right;  */
+    margin-left: -50%;
+    margin-top: 2em;
+    margin-right: 1em;
+}
+
+.blue-button:hover {
+    background-color: #0056b3;
+}
+
+/* New Volunteers Form */
+.volunteers-form {
+    .range-input {
+        width: 100%;
+        accent-color: #fb5e3c;
+        background-color: white;
+    }
+
+    .sliderticks {
+        width: 100%;
+    }
+
+    .submit {
+        margin-top: 50px;
+        background: #fb5e3c;
+        font-size: 25px;
+        padding: 10px 15px;
+    }
+
+    .form {
+        box-shadow: 4px -5px 54px 17px rgba(0, 0, 0, 0.1);
+        padding: 50px;
+    }
+}
+
+.card{
+    height: 200px;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.5);
+
+}
+ .card i{
+    /* background-color: #000; */
+    color: white;
+ }
+
+ .card a:hover{
+    background-color: #d9bb13;
+ }
+/* Volunteers */
+
+.volunteers {
+    h1 {
+        padding-top: 150px;
+        padding-bottom: 50px;
+        font-weight: 900;
+        font-size: 50px;
+    }
+    .vol {
+        box-shadow: 11px 18px 25px 17px rgba(0, 0, 0, 0.1);
+    }
+    .image {
+        img {
+            width: 100%;
+            height: 300px;
+        }
+    }
+}
+>>>>>>> 997ddef30ab7821230ed4f1e5be978f04c24cc6f

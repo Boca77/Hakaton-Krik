@@ -26,7 +26,7 @@
         <div class="container py-1">
             <div class="row">
                 <div class="col-7">
-                    <a href="">
+                    <a href="/">
                         <img style="width: 80px" src="{{ asset('images/logos/Крик-лого.png') }}" alt="Krik logo"></a>
                 </div>
                 <div class="col-5 d-flex align-items-center">
@@ -41,22 +41,22 @@
                             <div class="position-absolute p-2 w-100 d-none dropdown_active dropdown_body"
                                 id="dropdown-content">
                                 <ul class="drop_list">
-                                    <li><a href="">За Крик</a></li>
+                                    <li><a href="{{ route('za-krik') }}">За Крик</a></li>
                                     <li><a href="">Нашиот Тим</a></li>
-                                    <li><a href="">Волонтери</a></li>
-                                    <li><a href="">Архива</a></li>
+                                    <li><a href="{{ route('volunteers') }}">Волонтери</a></li>
+                                    <li><a href="{{ route('arhiva') }}">Архива</a></li>
                                 </ul>
                             </div>
                         </li>
 
                         <li class="nav-item p-2 align-self-center hover_border">
-                            <a href="" class="text-black text-decoration-none ">Услуги</a>
+                            <a href="{{ url('/uslugi') }}" class="text-black text-decoration-none ">Услуги</a>
                         </li>
                         <li class="nav-item p-2 align-self-center hover_border">
                             <a href="" class="text-black text-decoration-none ">Проекти</a>
                         </li>
                         <li class="nav-item p-2 align-self-center hover_border">
-                            <a href="" class="text-black text-decoration-none ">Кнтакт</a>
+                            <a href="#kontakt" class="text-black text-decoration-none ">Кнтакт</a>
                         </li>
                         <li class="nav-item fw-normal align-self-center p-2">
                             <a href="">
