@@ -413,3 +413,7 @@ footer {
     /* background-color: #000; */
     color: white;
  }
+
+ .card a:hover{
+    background-color: #d9bb13;
+ }
