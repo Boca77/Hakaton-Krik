@@ -273,7 +273,6 @@ footer {
         }
     }
 }
-<<<<<<< HEAD
 .stats {
     margin-top: 550px;
 
@@ -340,9 +339,7 @@ footer {
     margin: 0 auto;
     border-radius: 10px;
 }
-=======
 
->>>>>>> 997ddef30ab7821230ed4f1e5be978f04c24cc6f
 ::-webkit-scrollbar {
     width: 8px;
 }
@@ -364,14 +361,11 @@ footer {
     background: #b30000;
 }
 
-<<<<<<< HEAD
 .overflow-auto a{
     text-decoration: none;
 
-=======
 .overflow-auto a {
     text-decoration: none;
->>>>>>> 997ddef30ab7821230ed4f1e5be978f04c24cc6f
 }
 .blue-button {
     background-color: #3d80c8;
@@ -383,11 +377,7 @@ footer {
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
     transition: background-color 0.3s;
     display: inline-block;
-<<<<<<< HEAD
-    float: right;
-=======
     /* float: right;  */
->>>>>>> 997ddef30ab7821230ed4f1e5be978f04c24cc6f
     margin-left: -50%;
     margin-top: 2em;
     margin-right: 1em;
@@ -396,8 +386,6 @@ footer {
 .blue-button:hover {
     background-color: #0056b3;
 }
-<<<<<<< HEAD
-=======
 
 .stats {
     margin-top: 550px;
@@ -527,4 +515,4 @@ footer {
         }
     }
 }
->>>>>>> 997ddef30ab7821230ed4f1e5be978f04c24cc6f
+}
