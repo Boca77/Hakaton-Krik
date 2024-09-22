@@ -31,11 +31,18 @@ Route::post('/new/volunteer/store', [NewVolunteersController::class, 'store'])
 Route::get('/volunteers', [VolunteersController::class, 'index'])
     ->name('volunteers');
 
+Route::get('/volunteers/show/{volunteer}', [VolunteersController::class, 'show'])
+    ->name('volunteers.show');
+
 Route::get('/projects/proekti', [ProjectController::class, 'proekti'])->name('projects.proekti');
+
 Route::get('/projects/{id}', [ProjectController::class, 'show'])->name('projects.show');
 
 Route::get('/team', [TeamController::class, 'index'])
     ->name('team');
+
+Route::get('/team/show/{member}', [TeamController::class, 'show'])
+    ->name('team.show');
 
 Route::get('/donate', [DonationController::class, 'index'])->name('donate');
 
