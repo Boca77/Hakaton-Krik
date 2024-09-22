@@ -5,6 +5,7 @@ use App\Http\Controllers\NewVolunteersController;
 use App\Http\Controllers\TeamController;
 use App\Http\Controllers\VolunteersController;
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\ProjectController;
 
 Route::get('/', [EventsController::class, 'index']);
 
@@ -29,6 +30,9 @@ Route::post('/new/volunteer/store', [NewVolunteersController::class, 'store'])
 Route::get('/volunteers', [VolunteersController::class, 'index'])
     ->name('volunteers');
 
+Route::get('/projects/proekti', [ProjectController::class, 'proekti'])->name('projects.proekti');
+Route::get('/projects/{id}', [ProjectController::class, 'show'])->name('projects.show');
+    
 Route::get('/team', [TeamController::class, 'index'])
     ->name('team');
 
