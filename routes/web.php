@@ -7,6 +7,8 @@ use App\Http\Controllers\VolunteersController;
 use App\Http\Controllers\DonationController;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\ProjectController;
+use App\Http\Controllers\ProductController;
+use App\Http\Controllers\FavouriteController;
 
 Route::get('/', [EventsController::class, 'index']);
 
@@ -44,3 +46,8 @@ Route::post('/donate', [DonationController::class, 'submit'])->name('donate.subm
 Route::get('/news', function () {
     return view('montly-bileten');
 });
+
+Route::get('/products', [ProductController::class, 'index'])->name('products.index');
+Route::post('/products/{product}/buy', [ProductController::class, 'buy'])->name('products.buy');
+Route::post('/products/{product}/favourite', [FavouriteController::class, 'store'])->name('favourites.store');
+Route::get('/products/{id}', [ProductController::class, 'show'])->name('products.show');

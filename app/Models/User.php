@@ -11,6 +11,11 @@ class User extends Authenticatable
 {
     use HasFactory, Notifiable;
 
+
+    public function favourites()
+{
+    return $this->belongsToMany(Product::class, 'favourites');
+}
     /**
      * The attributes that are mass assignable.
      *
@@ -45,3 +50,4 @@ class User extends Authenticatable
         ];
     }
 }
+

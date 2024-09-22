@@ -698,3 +698,19 @@ footer {
     background-color: black;
     transform: translateX(-50%);
 }
+
+.animate a:hover {
+    text-decoration: none;
+    outline: none;  /* Remove the yellow outline */
+    box-shadow: none;
+    border: none;
+}
+.animate div:hover, .animate a:hover {
+    background-color: transparent;
+    box-shadow: none;
+    border: none;
+}
+
+.animate img {
+    transition: none;
+}

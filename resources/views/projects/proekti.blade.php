@@ -8,7 +8,7 @@
             <h2 class="mb-3">Тековни проекти</h2>
             <div class="row text-center">
                 @foreach($tekovni as $project)
-                    <div class="col-md-6 mb-4">
+                    <div class="col-12 col-md-6 mb-4">
                         <a href="{{ route('projects.show', $project->id) }}" class="text-decoration-none">
                             <div class="card h-100 project-card bg-warning text-dark rounded-5">
                                 <!-- Project Title Section -->
@@ -30,7 +30,7 @@
             <h2 class="mb-3">Завршени Проекти</h2>
             <div class="row text-center">
                 @foreach($zavrsheni as $project)
-                    <div class="col-md-6 mb-4">
+                    <div class="col-12 col-md-6 mb-4">
                         <a href="{{ route('projects.show', $project->id) }}" class="text-decoration-none">
                             <div class="card h-100 bg-warning text-dark project-card rounded-5">
                                 <!-- Project Title Section -->

@@ -15,7 +15,7 @@
                     <p class="mb-0 font_text text-white">En/Mkd</p>
                 </div>
                 <div class="col-1">
-                    <a href="" class="text-white font_text text-decoration-none">E-shop</a>
+                    <a href="{{route('products.index')}}" class="text-white font_text text-decoration-none">E-shop</a>
                 </div>
             </div>
         </div>
