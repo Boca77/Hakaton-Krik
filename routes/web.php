@@ -33,9 +33,14 @@ Route::get('/volunteers', [VolunteersController::class, 'index'])
 
 Route::get('/projects/proekti', [ProjectController::class, 'proekti'])->name('projects.proekti');
 Route::get('/projects/{id}', [ProjectController::class, 'show'])->name('projects.show');
-    
+
 Route::get('/team', [TeamController::class, 'index'])
     ->name('team');
 
 Route::get('/donate', [DonationController::class, 'index'])->name('donate');
+
 Route::post('/donate', [DonationController::class, 'submit'])->name('donate.submit');
+
+Route::get('/news', function () {
+    return view('montly-bileten');
+});
