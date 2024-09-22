@@ -4,6 +4,7 @@ use App\Http\Controllers\EventsController;
 use App\Http\Controllers\NewVolunteersController;
 use App\Http\Controllers\TeamController;
 use App\Http\Controllers\VolunteersController;
+use App\Http\Controllers\DonationController;
 use Illuminate\Support\Facades\Route;
 
 Route::get('/', [EventsController::class, 'index']);
@@ -32,6 +33,5 @@ Route::get('/volunteers', [VolunteersController::class, 'index'])
 Route::get('/team', [TeamController::class, 'index'])
     ->name('team');
 
-Route::get('/donate', function () {
-    return view('donate');
-})->name('donate');
+Route::get('/donate', [DonationController::class, 'index'])->name('donate');
+Route::post('/donate', [DonationController::class, 'submit'])->name('donate.submit');
