@@ -19,7 +19,9 @@ class DatabaseSeeder extends Seeder
             TeamSeeder::class,
             VolunteersSeeder::class,
             ProjectSeeder::class,
-            EventsSeeder::class
+            EventsSeeder::class,
+            NewVolunteersSeeder::class,
+            ProductSeeder::class,
         ]);
 
         User::factory()->create([
