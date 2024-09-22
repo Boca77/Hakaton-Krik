@@ -485,3 +485,118 @@ footer {
         padding: 50px;
     }
 }
+
+/* Team */
+.team {
+    font-family: "Arial", sans-serif;
+    background-color: white;
+    color: #333;
+    text-align: center;
+    padding: 40px 0;
+    box-sizing: border-box;
+
+    .carousel-container {
+        margin: 0 auto;
+        max-width: 800px;
+        padding: 20px;
+        position: relative;
+    }
+
+    h1 {
+        font-weight: 900;
+        margin-bottom: 20px;
+        font-size: 2.5em;
+    }
+
+    .carousel {
+        display: flex;
+        overflow: hidden;
+        position: relative;
+        justify-content: center;
+        align-items: center;
+        height: 450px; /* Adjust height for larger images */
+        padding: 20px;
+    }
+
+    .carousel-item {
+        display: none;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        transition: opacity 0.5s ease;
+        position: absolute; /* Absolute positioning to stack items */
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        opacity: 0;
+    }
+
+    .carousel-item.active {
+        display: flex;
+        opacity: 1; /* Fade in effect */
+    }
+
+    img {
+        border-radius: 50%;
+        width: 180px;
+        height: 180px;
+        object-fit: cover;
+        margin-bottom: 10px;
+    }
+
+    h2 {
+        font-size: 1.5em;
+        margin: 10px 0;
+    }
+
+    p {
+        font-size: 1em;
+        margin: 5px 0;
+    }
+
+    .linkedin-btn {
+        background-color: #f25822;
+        color: white;
+        padding: 10px 20px;
+        border-radius: 5px;
+        text-decoration: none;
+        font-size: 1em;
+        margin-top: 10px;
+    }
+
+    .carousel-controls {
+        margin-top: 20px;
+        display: flex;
+        justify-content: center;
+    }
+
+    .carousel-controls button {
+        font-size: 20px;
+        padding: 10px;
+        border: none;
+        background-color: #333;
+        color: white;
+        cursor: pointer;
+        margin: 0 10px;
+        border-radius: 50%;
+        line-height: 50%;
+    }
+
+    .carousel-controls button:hover {
+        background-color: #555;
+    }
+}
+
+.board {
+    margin-top: 150px;
+
+    h1 {
+        font-weight: 900;
+    }
+
+    img {
+        width: 350px;
+        border-radius: 80px;
+    }
+}

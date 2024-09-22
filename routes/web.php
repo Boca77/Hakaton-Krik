@@ -2,6 +2,7 @@
 
 use App\Http\Controllers\EventsController;
 use App\Http\Controllers\NewVolunteersController;
+use App\Http\Controllers\TeamController;
 use App\Http\Controllers\VolunteersController;
 use Illuminate\Support\Facades\Route;
 
@@ -27,3 +28,6 @@ Route::post('/new/volunteer/store', [NewVolunteersController::class, 'store'])
 
 Route::get('/volunteers', [VolunteersController::class, 'index'])
     ->name('volunteers');
+
+Route::get('/team', [TeamController::class, 'index'])
+    ->name('team');
