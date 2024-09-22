@@ -4,7 +4,7 @@
         <div class="container py-2">
             <div class="row align-items-center">
                 <div class="col-2">
-                    <a href=""
+                    <a href="/news"
                         class="h3 font_headings text-decoration-none h3 fw-bold text-white mb-0 d-inline">NEWSLETTER</a>
                 </div>
                 <div class="col-8">
@@ -53,7 +53,8 @@
                             <a href="{{ url('/uslugi') }}" class="text-black text-decoration-none ">Услуги</a>
                         </li>
                         <li class="nav-item p-2 align-self-center hover_border">
-                            <a href="{{route('projects.proekti')}}" class="text-black text-decoration-none ">Проекти</a>
+                            <a href="{{ route('projects.proekti') }}"
+                                class="text-black text-decoration-none ">Проекти</a>
                         </li>
                         <li class="nav-item p-2 align-self-center hover_border">
                             <a href="#kontakt" class="text-black text-decoration-none ">Кнтакт</a>
