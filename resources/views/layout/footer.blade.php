@@ -1,10 +1,10 @@
-<footer class="bg-black rounded-top-4" id="footer">
+<footer class="bg-black rounded-top-4" id="kontakt">
 
     {{-- Top part --}}
     <div class="container border-bottom border-white">
         <div class="row">
             <div class="col-3">
-                <h2 class="text-white fotn_text">Месечен билтен</h2>
+                <h2 class="text-white font_text">Месечен билтен</h2>
             </div>
             <div class="col-4">
                 <p class="text-white top_footer_text ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia
@@ -25,10 +25,10 @@
     <div class="container mt-5">
         <div class="row">
             {{-- Contact form --}}
-            <div class="col-5">
-                <h3 class="text-white fotn_text">Контактирај Не!</h3>
+            <div class="col-5 pe-0">
+                <h3 class="text-white font_text">Контактирај Не!</h3>
                 <input type="email" class="text-white rounded-pill mt-3 send_email bg-black border-4 border-white"
-                    name="" id="" placeholder="Вашe Име">
+                    name="" id="" placeholder="Вашeто Име">
                 <input type="email" class="text-white mt-3 rounded-pill send_email bg-black border-4 border-white"
                     name="" id="" placeholder="Вашата Емаил Адреса">
                 <button class="btn bg-warning rounded-pill send_email mt-3">CTA</button>
@@ -49,7 +49,7 @@
                 {{-- Social media links --}}
                 <div class="container">
                     <div class="row">
-                        <div class="col">
+                        <div class="col ps-0">
                             <a href="">
                                 <img src="{{ asset('/images/logos/facebook-logo.svg') }}" alt="">
                             </a>
