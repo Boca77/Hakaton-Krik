@@ -42,7 +42,7 @@
                                 id="dropdown-content">
                                 <ul class="drop_list">
                                     <li><a href="{{ route('za-krik') }}">За Крик</a></li>
-                                    <li><a href="">Нашиот Тим</a></li>
+                                    <li><a href="{{ route('team') }}">Нашиот Тим</a></li>
                                     <li><a href="{{ route('volunteers') }}">Волонтери</a></li>
                                     <li><a href="{{ route('arhiva') }}">Архива</a></li>
                                 </ul>
@@ -59,7 +59,7 @@
                             <a href="#kontakt" class="text-black text-decoration-none ">Кнтакт</a>
                         </li>
                         <li class="nav-item fw-normal align-self-center p-2">
-                            <a href="">
+                            <a href="{{ route('donate') }}">
                                 <button class="pushable">
                                     <span class="front">
                                         Донирај

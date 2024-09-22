@@ -15,6 +15,10 @@
         rel="stylesheet">
     {{-- Font Awsome --}}
     <script src="https://kit.fontawesome.com/0d6f25b6d2.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiffy-slider@1.6.0/dist/js/swiffy-slider.min.js" crossorigin="anonymous"
+        defer></script>
+    <link href="https://cdn.jsdelivr.net/npm/swiffy-slider@1.6.0/dist/css/swiffy-slider.min.css" rel="stylesheet"
+        crossorigin="anonymous">
 
     @vite(['resources/css/app.css', 'resources/js/app.js'])
 </head>

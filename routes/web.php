@@ -1,13 +1,13 @@
 <?php
 
+use App\Http\Controllers\EventsController;
 use App\Http\Controllers\NewVolunteersController;
+use App\Http\Controllers\TeamController;
 use App\Http\Controllers\VolunteersController;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\ProjectController;
 
-Route::get('/', function () {
-    return view('home');
-});
+Route::get('/', [EventsController::class, 'index']);
 
 Route::get('/za-krik', function () {
     return view('za-krik');
@@ -32,3 +32,10 @@ Route::get('/volunteers', [VolunteersController::class, 'index'])
 
 Route::get('/projects/proekti', [ProjectController::class, 'proekti'])->name('projects.proekti');
 Route::get('/projects/{id}', [ProjectController::class, 'show'])->name('projects.show');
+    
+Route::get('/team', [TeamController::class, 'index'])
+    ->name('team');
+
+Route::get('/donate', function () {
+    return view('donate');
+})->name('donate');

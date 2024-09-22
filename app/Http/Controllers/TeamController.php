@@ -2,19 +2,18 @@
 
 namespace App\Http\Controllers;
 
-use App\Models\Events;
+use App\Models\Team;
 use Illuminate\Http\Request;
 
-class EventsController extends Controller
+class TeamController extends Controller
 {
     /**
      * Display a listing of the resource.
      */
     public function index()
     {
-        $posts = Events::all();
-
-        return view('home', compact('posts'));
+        $team = Team::all();
+        return view('team', compact('team'));
     }
 
     /**
@@ -36,7 +35,7 @@ class EventsController extends Controller
     /**
      * Display the specified resource.
      */
-    public function show(Events $events)
+    public function show(string $id)
     {
         //
     }
@@ -44,7 +43,7 @@ class EventsController extends Controller
     /**
      * Show the form for editing the specified resource.
      */
-    public function edit(Events $events)
+    public function edit(string $id)
     {
         //
     }
@@ -52,7 +51,7 @@ class EventsController extends Controller
     /**
      * Update the specified resource in storage.
      */
-    public function update(Request $request, Events $events)
+    public function update(Request $request, string $id)
     {
         //
     }
@@ -60,7 +59,7 @@ class EventsController extends Controller
     /**
      * Remove the specified resource from storage.
      */
-    public function destroy(Events $events)
+    public function destroy(string $id)
     {
         //
     }

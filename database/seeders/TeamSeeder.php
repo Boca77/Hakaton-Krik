@@ -15,25 +15,25 @@ class TeamSeeder extends Seeder
     {
         $ourTeam = [
             [
-                'image' => 'https://drive.google.com/file/d/19iAw0QMXASKNonjl00dh62Pg7ICKE0NY/view?usp=drive_link',
+                'image' => 'images/team/mateo-trenkoski.jpg',
                 'name' => 'Матео',
-                'last-name' => 'Тренкоски',
+                'last_name' => 'Тренкоски',
                 'position' => 'Практикант во ЦМА Крик',
                 'linkedIn' => 'LinkedIn link',
 
             ],
             [
-                'image' => 'https://drive.google.com/file/d/1DxL25o7MfwxWKj04uuOodUfjqKxVs2_5/view?usp=drive_link',
+                'image' => 'images/team/igor-dimovski.jpg',
                 'name' => 'Игор',
-                'last-name' => 'Димовски',
+                'last_name' => 'Димовски',
                 'position' => 'Координатор за волонтери во ЦМА - Крик',
                 'linkedIn' => 'LinkedIn link',
 
             ],
             [
-                'image' => 'https://drive.google.com/file/d/1ZIYCsSQuLhIB9WZncL3U2eU3ac6pCQKa/view?usp=drive_link',
+                'image' => 'images/team/sara-dimoska.jpg',
                 'name' => 'Сара',
-                'last-name' => 'Димоска',
+                'last_name' => 'Димоска',
                 'position' => 'Координатор во ЦМА - Крик',
                 'linkedIn' => 'LinkedIn link',
 
@@ -44,7 +44,7 @@ class TeamSeeder extends Seeder
             Team::create([
                 'image' => $member['image'],
                 'name' => $member['name'],
-                'last-name' => $member['last-name'],
+                'last_name' => $member['last_name'],
                 'position' => $member['position'],
                 'linkedIn' => $member['linkedIn'],
             ]);
