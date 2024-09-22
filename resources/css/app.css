@@ -600,3 +600,10 @@ footer {
         border-radius: 80px;
     }
 }
+
+.donate {
+    padding-top: 150px;
+    .box {
+        box-shadow: 4px -5px 54px 17px rgba(0, 0, 0, 0.1);
+    }
+}

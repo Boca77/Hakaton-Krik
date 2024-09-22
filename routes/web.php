@@ -31,3 +31,7 @@ Route::get('/volunteers', [VolunteersController::class, 'index'])
 
 Route::get('/team', [TeamController::class, 'index'])
     ->name('team');
+
+Route::get('/donate', function () {
+    return view('donate');
+})->name('donate');
