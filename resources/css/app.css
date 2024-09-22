@@ -607,3 +607,34 @@ footer {
         box-shadow: 4px -5px 54px 17px rgba(0, 0, 0, 0.1);
     }
 }
+
+.rounded-bottom-only {
+    border-bottom-left-radius: 0.5rem;
+    border-bottom-right-radius: 0.5rem;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+}
+
+/* For stronger rounding */
+.rounded-bottom-only {
+    border-bottom-left-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+}
+
+.project-details img{
+    max-height: 50vh;
+    overflow: hidden;
+}
+.project-details .bg-dark {
+    border-radius: .5rem; /* Matches rounded-5 */
+}
+.black-box {
+    background-color: black; /* Black background */
+    color: white;            /* White text */
+    width: 250px;           /* Fixed width */
+    height: 250px;          /* Fixed height */
+    font-size: 1.7rem;
+    display: flex;          /* Use flexbox */
+    border-radius: .5rem;   /* Rounded corners */
+    margin-right: 1rem;     /* Space between the box and text */
+}
