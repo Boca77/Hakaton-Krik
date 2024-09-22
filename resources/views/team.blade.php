@@ -8,12 +8,14 @@
             <h1>Запознајте го Нашиот Тим</h1>
             <div class="carousel">
                 @foreach ($team as $member)
-                    <div class="carousel-item {{ $loop->first ? 'active' : '' }}">
-                        <img src="{{ asset($member->image) }}" alt="{{ $member->name }}">
-                        <h2>{{ $member->name }} {{ $member->last_name }}</h2>
-                        <p>{{ $member->position }}</p>
-                        <a href="{{ $member->linkedIn }}" class="linkedin-btn">LinkedIn</a>
-                    </div>
+                    <a class="text-decoration-none text-black" href="{{ route('team.show', $member->id) }}">
+                        <div class="carousel-item {{ $loop->first ? 'active' : '' }}">
+                            <img src="{{ asset($member->image) }}" alt="{{ $member->name }}">
+                            <h2>{{ $member->name }} {{ $member->last_name }}</h2>
+                            <p>{{ $member->position }}</p>
+                            <a href="{{ $member->linkedIn }}" class="linkedin-btn">LinkedIn</a>
+                        </div>
+                    </a>
                 @endforeach
             </div>
             <div class="carousel-controls">

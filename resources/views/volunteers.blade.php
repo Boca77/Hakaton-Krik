@@ -21,15 +21,18 @@
                 <div class="row">
                     @foreach ($longTermVolunteers as $volunteer)
                         <div class="col-3">
-                            <div class="outer mt-5 vol rounded-5">
-                                <div class="image">
-                                    <img class="rounded-top-5" src="{{ asset($volunteer->image) }}" alt="">
+                            <a href="{{ route('volunteers.show', $volunteer->id) }}"
+                                class="text-decoration-none text-black">
+                                <div class="outer mt-5 vol rounded-5">
+                                    <div class="image">
+                                        <img class="rounded-top-5" src="{{ asset($volunteer->image) }}" alt="">
+                                    </div>
+                                    <div class="desc p-3 font_texts">
+                                        <h3>{{ $volunteer->name }}</h3>
+                                        <p>{{ $volunteer->age }}, {{ $volunteer->country }}</p>
+                                    </div>
                                 </div>
-                                <div class="desc p-3 font_texts">
-                                    <h3>{{ $volunteer->name }}</h3>
-                                    <p>{{ $volunteer->age }}, {{ $volunteer->country }}</p>
-                                </div>
-                            </div>
+                            </a>
                         </div>
                     @endforeach
                 </div>
