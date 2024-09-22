@@ -1,5 +1,7 @@
 @extends('layout.main')
 
+@section('title', 'Донирај')
+
 @section('content')
     <div class="container donate">
         <div class="row">
